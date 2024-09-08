@@ -10,7 +10,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -20,18 +20,16 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> &nbsp; SHAFIULLA &nbsp; ATTAR </strong>
+                <strong className="main-name">
+                  {" "}
+                  &nbsp; SHAFIULLA &nbsp; ATTAR{" "}
+                </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="flex justify-content-center pt-5">
                 <Type />
               </div>
             </Col>
-
-            <Col md={4} className="myAvtar">
-              <img src={myImg} className="img-fluid" alt="avatar" />
-          </Col>
-
           </Row>
         </Container>
       </Container>

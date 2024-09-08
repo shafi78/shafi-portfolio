@@ -2,11 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/profile.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn, } from "react-icons/fa";
-import {SiGmail} from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 function Home2() {
   return (
@@ -18,20 +16,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm Shafiulla Attar, a passionate programmer with approximately 2.5 years of coding experience under my belt. I like to think of myself as a tech enthusiast with a knack for swiftly adapting to new technologies. 😊
+              I'm Shafiulla Attar, I like to think of myself as a tech
+              enthusiast with a knack for swiftly adapting to new technologies.
+              😊
               <br />
-              <br />I'm good at
+              <br />
+              I'm good at
               <i>
-                <b className="purple"> Javascript. &nbsp;</b>
+                <b className="purple"> Javascript & Java. &nbsp;</b>
               </i>
-              and I enjoy building web and mobile apps. I've also started studying Data Structures and Algorithms (DSA).
+              and I enjoy building web and mobile apps. I've also started
+              studying Data Structures and Algorithms (DSA).
               <br />
               <br />
-              I'm all about using tech to make cool things happen, and I'm open to new challenges and collaborations. Let's connect and create together!
-              
+              I'm all about using tech to make cool things happen, and I'm open
+              to new challenges and collaborations. Let's connect and create
+              together!
             </p>
           </Col>
-          
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
@@ -50,7 +52,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/shafiulla-attar-b4a716252/"
@@ -61,7 +63,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              
+
               <li className="social-icons">
                 <a
                   href="mailto:shafiullaattar786@gmail.com"
@@ -72,7 +74,6 @@ function Home2() {
                   <SiGmail />
                 </a>
               </li>
-              
             </ul>
           </Col>
         </Row>

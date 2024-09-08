@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "MERN Stack Developer",
-          "Native App Developer",
+          "React-Native App Developer",
           "Programmer",
         ],
         autoStart: true,

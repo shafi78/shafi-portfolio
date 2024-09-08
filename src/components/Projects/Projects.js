@@ -7,6 +7,7 @@ import wanderlust from "../../Assets/Projects/wanderlust.png";
 import foodie from "../../Assets/Projects/foodie.png";
 import editor from "../../Assets/Projects/code-editor.png";
 import movieApp from "../../Assets/Projects/moview app.png";
+import aiContentGenerator from "../../Assets/Projects/ai-content-generator.png";
 
 function Projects() {
   return (
@@ -21,6 +22,28 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={aiContentGenerator}
+              isBlog={false}
+              title="AI Content Generator"
+              description="A Next.js-based application that uses AI to instantly generate SEO-friendly content. Customize tone, length, and style for tailored outputs. Ideal for marketers, bloggers, and businesses seeking efficient content creation."
+              ghLink="https://github.com/shafi78/Ai-Content-Generator"
+              demoLink="https://ai-content-generator-shafis-projects.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={studhelp}
+              isBlog={false}
+              title="Student Helper"
+              description="An E-learning platform created for computer science students to enhance their skills. Here main components are : QNA , Webinars , Blogs , Aptitude , DSA , Courses , Jobs and Chatbot."
+              ghLink="https://github.com/shafi78/Student-Helper"
+              demoLink="https://www.linkedin.com/posts/shafiulla-attar-b4a716252_webdeveloper-mernstack-reactnative-activity-7123311519794139137-WGpb?utm_source=share&utm_medium=member_desktop"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={csnwp}
               isBlog={false}
               title="CSNWP"
@@ -32,35 +55,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={studhelp}
-              isBlog={false}
-              title="Student Helper"
-              description="An E-learning platform created for computer science students to enhance their skills. Here main components are : QNA , Webinars , Blogs , Aptitude , DSA , Courses , Jobs and Chatbot."
-              ghLink="https://github.com/shafi78/Student-Helper"
-              demoLink="https://www.linkedin.com/posts/shafiulla-attar-b4a716252_webdeveloper-mernstack-reactnative-activity-7123311519794139137-WGpb?utm_source=share&utm_medium=member_desktop"              
-              />
-          </Col>
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={wanderlust}
-              isBlog={false}
-              title="Wander Lust"
-              description="Wanderlust web app provides a seamless platform for travelers to discover unique accommodations worldwide, from cozy cottages to luxurious penthouses."
-              ghLink=""
-              demoLink=""              
-              />
-          </Col>
-          
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={foodie}
               isBlog={false}
               title="Foodie"
               description="Foodie is an simple Food delivery app created using React-native. It is my first react-native app which I created during my learning phase."
               ghLink="https://github.com/shafi78/Foodie"
-              demoLink="https://www.linkedin.com/posts/shafiulla-attar-b4a716252_mernstack-fullstackdevelopment-webdeveloper-activity-7118780985088901121-gi5l?utm_source=share&utm_medium=member_desktop"              
+              demoLink="https://www.linkedin.com/posts/shafiulla-attar-b4a716252_mernstack-fullstackdevelopment-webdeveloper-activity-7118780985088901121-gi5l?utm_source=share&utm_medium=member_desktop"
             />
           </Col>
 
@@ -75,8 +75,6 @@ function Projects() {
             />
           </Col>
 
-          
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -84,13 +82,20 @@ function Projects() {
               title="Code editor"
               description="Online code editor to code Html , CSS and JavaSCript created using React js with code mirror packages. "
               ghLink="https://github.com/shafi78/code-editor"
-              demoLink="https://www.linkedin.com/posts/shafiulla-attar-b4a716252_reactdeveloper-project-fullstackdevelopment-activity-7117575038584688640-KkOX?utm_source=share&utm_medium=member_desktop"              
+              demoLink="https://www.linkedin.com/posts/shafiulla-attar-b4a716252_reactdeveloper-project-fullstackdevelopment-activity-7117575038584688640-KkOX?utm_source=share&utm_medium=member_desktop"
             />
           </Col>
 
-          
-
-        
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wanderlust}
+              isBlog={false}
+              title="Wander Lust"
+              description="Wanderlust web app provides a seamless platform for travelers to discover unique accommodations worldwide, from cozy cottages to luxurious penthouses."
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
